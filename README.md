@@ -1,4 +1,4 @@
-# Endpoints for Paleovalley
+# Laravel REST API Development
 
 ## The Product API is developed using Laravel, version 10.26.2.
 
@@ -19,7 +19,7 @@ Here are the main steps followed to create the endpoints:
         - Edit to add required methods for CRUD operations
 
 - Check laravel/sanctum (already installed)
-    * Sanctum is suitable for this API implementation, as we don't require additional options or integration with third-party services.
+    - **Sanctum** is suitable for this API implementation, as we don't require additional options or integration with third-party services.
 
 - Create default & custom migrations/tables: php artisan migrate
 
@@ -32,6 +32,6 @@ Here are the main steps followed to create the endpoints:
     - `php artisan db:seed`
 
 - Create some feature tests in `ProductApiTest.php`
-    - php artisan make:factory ProductFactory --model=Product
+    - `php artisan make:factory ProductFactory --model=Product`
     - Edit to add the definitions
-    - php artisan test
+    - `php artisan test`
